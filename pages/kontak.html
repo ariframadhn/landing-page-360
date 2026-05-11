@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak | Al Amin Techno Park</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo-area">
+          <img
+            src="../assets/logo.png"
+            alt="Logo Panca Budi"
+            class="logo-img"
+            style="border-radius: 50%"
+          />
+          <img src="../assets/logo2.png" alt="Logo 2" class="logo-img" />
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Beranda</a></li>
+            <li>
+              <a href="tentang-kami.html" class="nav-link">Tentang Kami</a>
+            </li>
+            <li class="has-dropdown">
+              <a
+                href="peta-kawasan.html"
+                class="nav-link"
+                id="peta-kawasan-toggle"
+              >
+                Peta Kawasan
+                <svg
+                  class="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <div class="dropdown-menu" id="peta-dropdown">
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Sport Centre & Rusun</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Stable Kuda & Grazing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Parkir Dan Processing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Plaza Utama</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Peternakan</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Perkebunan</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="fasilitas.html" class="nav-link">Fasilitas</a></li>
+            <li><a href="berita.html" class="nav-link">Berita</a></li>
+            <li><a href="kontak.html" class="nav-link active">Kontak</a></li>
+          </ul>
+        </nav>
+        <div class="nav-action">
+          <a href="jelajahi-360.html" class="btn-primary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
+            </svg>
+            Jelajahi 360&deg;
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Half -->
+    <section
+      class="hero-half"
+      style="background-color: #000000; background-image: url(../assets/1.png)"
+    >
+      <div class="hero-overlay-dark"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title" style="font-size: 2.5rem; margin-bottom: 10px">
+          Hubungi Kami
+        </h1>
+        <p class="hero-subtitle">
+          Silakan tinggalkan pesan atau kunjungi lokasi kami.
+        </p>
+      </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section class="section">
+      <div class="container grid-2">
+        <!-- Info & Form placeholder -->
+        <div
+          style="
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+          "
+        >
+          <h2
+            class="section-title"
+            style="font-size: 1.75rem; margin-bottom: 24px"
+          >
+            Kirim Pesan
+          </h2>
+          <div style="display: flex; flex-direction: column; gap: 16px">
+            <input
+              type="text"
+              placeholder="Nama Lengkap"
+              style="
+                padding: 12px;
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                width: 100%;
+              "
+            />
+            <input
+              type="email"
+              placeholder="Alamat Email"
+              style="
+                padding: 12px;
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                width: 100%;
+              "
+            />
+            <textarea
+              placeholder="Pesan Anda"
+              rows="5"
+              style="
+                padding: 12px;
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                width: 100%;
+              "
+            ></textarea>
+            <button class="btn-primary" style="width: 100%">Kirim Pesan</button>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div style="height: 100%">
+          <img
+            src="../assets/5.jpg"
+            alt="Peta Lokasi"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 12px;
+              box-shadow: var(--shadow-sm);
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div
+      class="container"
+      style="
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        padding-top: 60px;
+      "
+    >
+      <div
+        style="
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+          gap: 50px;
+        "
+      >
+        <div style="display: flex; align-items: flex-start; gap: 16px">
+          <div
+            style="
+              background-color: #b5d1b7;
+              min-width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-shrink: 0;
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2d5a27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div>
+            <h4
+              style="
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: #000;
+              "
+            >
+              Lokasi
+            </h4>
+            <p
+              style="
+                margin: 5px 0 0;
+                font-size: 0.95rem;
+                color: #333;
+                line-height: 1.6;
+              "
+            >
+              Jl. Berdikari Dusun 3 no 200 Buluhipes, Sampe Cita, Kec.
+              Kutalimbaru, Kabupaten Deli Serdang, Sumatera Utara 20354
+            </p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 16px">
+          <div
+            style="
+              background-color: #b5d1b7;
+              min-width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-shrink: 0;
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2d5a27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              ></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div>
+            <h4
+              style="
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: #000;
+              "
+            >
+              Email
+            </h4>
+            <a
+              href="mailto:alamin14@Gmail.com"
+              style="
+                margin: 5px 0 0;
+                display: block;
+                font-size: 0.95rem;
+                color: #333;
+                text-decoration: underline;
+              "
+              >alamin14@Gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 16px">
+          <div
+            style="
+              background-color: #b5d1b7;
+              min-width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-shrink: 0;
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2d5a27"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              ></path>
+            </svg>
+          </div>
+          <div>
+            <h4
+              style="
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: #000;
+              "
+            >
+              Telepon
+            </h4>
+            <p style="margin: 5px 0 0; font-size: 0.95rem; color: #333">
+              08123456789
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="social-icons">
+          <a href="#"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
+          ></a>
+          <a href="#"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"
+              ></path>
+              <polygon
+                points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+              ></polygon></svg
+          ></a>
+          <a href="#"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              ></path>
+              <polyline points="22,6 12,13 2,6"></polyline></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

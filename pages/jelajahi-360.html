@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelajahi 360 | Al Amin Techno Park</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo-area">
+          <img
+            src="../assets/logo.png"
+            alt="Logo Panca Budi"
+            class="logo-img"
+            style="border-radius: 50%"
+          />
+          <img src="../assets/logo2.png" alt="Logo 2" class="logo-img" />
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Beranda</a></li>
+            <li>
+              <a href="tentang-kami.html" class="nav-link">Tentang Kami</a>
+            </li>
+            <li class="has-dropdown">
+              <a
+                href="peta-kawasan.html"
+                class="nav-link"
+                id="peta-kawasan-toggle"
+              >
+                Peta Kawasan
+                <svg
+                  class="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </a>
+              <div class="dropdown-menu" id="peta-dropdown">
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Sport Centre & Rusun</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Stable Kuda & Grazing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Parkir Dan Processing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Plaza Utama</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Peternakan</a
+                    >
+                  </li>
+                  <li>
+                    <a href="peta-kawasan.html" class="dropdown-link"
+                      >Area Perkebunan</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="fasilitas.html" class="nav-link">Fasilitas</a></li>
+            <li><a href="berita.html" class="nav-link">Berita</a></li>
+            <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+        <div class="nav-action">
+          <a href="jelajahi-360.html" class="btn-primary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
+            </svg>
+            Jelajahi 360&deg;
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 360 View Placeholder -->
+    <section
+      style="
+        height: 100vh;
+        padding-top: 80px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      "
+    >
+      <div style="text-align: center">
+        <svg
+          width="64"
+          height="64"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          style="margin-bottom: 20px"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path
+            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+          ></path>
+        </svg>
+        <h2 style="font-size: 2rem; margin-bottom: 10px">
+          Area Virtual Tour 360&deg;
+        </h2>
+        <p style="color: #9ca3af">
+          Jelajahi area kami dalam tampilan 360 derajat
+        </p>
+      </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
